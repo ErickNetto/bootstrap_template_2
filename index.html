@@ -6,21 +6,18 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   </head>
-  <body style="background-color: grey;">
-    <header class="container-fluid" style="height:300px;background-color:blueviolet;">
-        <div class="row">
-
+  <body style="background-color: #0D0D0D;">
+    <header class="container-fluid col col-12 col-sm-12 sm" style="height:200px;background-color:blueviolet;background-image: url(./assets/head.jpg);background-repeat: no-repeat;object-fit: contain;background-position: 0px -70px;background-size:cover;">
+        <div class="container">
+            <h1 style="color:#73574D;">EnterPrise Solutions</h1>
         </div>
     </header>
-    <main class="container" style="background-color:grey;height:1200px;margin-top: 10px;margin-bottom: 10px;">
+    <main class="container" style="height:1200px;margin-top: 10px;margin-bottom: 10px;">
         <div class="row">
-            <div class="row">
-
-            </div>
-            <article class="col col-8" style="background-color: red;height:1200px;">
+            <article class="col col-xl-8 col-sm-12" style="background-color: #73574D;height:1200px;border-radius: 0.5em;">
                 <section style="height:auto;margin-bottom: 20px;margin-top: 20px;">
                     <div class="card">
-                        <img src="..." class="card-img-top" alt="">
+                        <img src="./assets/1.jpg" class="card-img-top" alt="">
                         <div class="card-body">
                           <h5 class="card-title">Matéria A</h5>
                           <p class="card-text">Texto da matéria.</p>
@@ -29,9 +26,9 @@
                     </div>
                 </section>
                 <div class="row">
-                    <section class="col col-6" style="height:auto">
+                    <section class="col col-xl-6 col-sm-12" style="height:auto">
                         <div class="card">
-                            <img src="..." class="card-img-top" alt="">
+                            <img src="./assets/2.jpg" style="height:350px" class="card-img-top" alt="">
                             <div class="card-body">
                             <h5 class="card-title">Matéria B</h5>
                             <p class="card-text">Texto da matéria.</p>
@@ -39,9 +36,9 @@
                             </div>
                         </div>
                     </section>
-                    <section class="col col-6" style="height:auto">
+                    <section class="col col-xl-6 col-sm-12" style="height:auto">
                         <div class="card">
-                            <img src="..." class="card-img-top" alt="">
+                            <img src="./assets/3.jpg" style="object-fit: cover;height:350px" class="card-img-top" alt="">
                             <div class="card-body">
                             <h5 class="card-title">Matéria C</h5>
                             <p class="card-text">Texto da matéria.</p>
@@ -51,27 +48,35 @@
                     </section>
                 </div>
             </article>
-            <aside class="col col-4" style="background-color: blue;padding: 10px;">
+            <aside class="col col-xl-4 col-sm-12" style="background-color: #D9D7BA;border-radius: 0.5em;">
                 <div class="row">
-                    <input type="text" style="width:80%;margin-left:10%;border:2px solid red;top: 20px;position: relative;" placeholder="Pesquise um termo...">
+                    <input type="text" style="width:80%;margin-left:10%;border:3px solid #A69677;border-radius: 0.5em;top: 20px;position: relative;" placeholder="Pesquise um termo...">
                 </div>
-                <div class="col col-12" style="background-color:deeppink;height:250px;position: relative;top:100px">
+                <div class="col col-12" style="background-color:#A69677;height:250px;position: relative;top:100px;border-radius: 0.3em;"> 
+                    <h3 style="background-color:#73574D;border-radius: 0.1em;">Top 5 carros mais daoras</h3>
+                    <ul>
+                        <li>Mustang</li>
+                        <li>Firebird</li>
+                        <li>Opalão</li>
+                        <li>Jaguar E-Type</li>
+                        <li>Gran Torino</li>
+                    </ul>
 
                 </div>
                 <div class="col" style="margin-top: 150px;">
                     <div class="row" style="margin: 5px;">
-                        <section class="col col-5.5" style="height:150px;background-color:aqua;margin: 5px;">
+                        <section class="col col-5.5" style="height:150px;background-color:#A69677;border-radius: 0.3em;border: 2.5px solid #A69677;margin: 5px;">
 
                         </section>
-                        <section class="col col-5.5" style="height:150px;background-color:aqua;margin: 5px;">
+                        <section class="col col-5.5" style="height:150px;background-color:#A69677;border-radius: 0.3em;border: 2.5px solid #A69677;margin: 5px;">
 
                         </section>
                     </div>
                     <div class="row" style="margin: 5px;">
-                        <section class="col col-5.5" style="height:150px;background-color:aqua;margin: 5px;">
+                        <section class="col col-5.5" style="height:150px;background-color:#A69677;border-radius: 0.3em;border: 2.5px solid #A69677;margin: 5px;">
 
                         </section>
-                        <section class="col col-5.5" style="height:150px;background-color:aqua;margin: 5px;">
+                        <section class="col col-5.5" style="height:150px;background-color:#A69677;border-radius: 0.3em;border: 2.5px solid #A69677;margin: 5px;">
 
                         </section>
                     </div>
@@ -79,7 +84,7 @@
             </aside>
         </div>
     </main>
-    <footer class="container-fluid" style="background-color:green;height:250px;">
+    <footer class="container-fluid" style="background-color:#A69677;height:250px;">
 
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
