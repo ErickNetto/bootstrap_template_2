@@ -5,44 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    
   </head>
   <body style="background-color: #0D0D0D;">
-    <header class="container-fluid col col-12 col-sm-12 sm" style="height:200px;background-color:blueviolet;background-image: url(./assets/head.jpg);background-repeat: no-repeat;object-fit: contain;background-position: 0px -70px;background-size:cover;">
+    <header class="container-fluid col col-12 col-sm-12 sm" style="height:200px;background-image: url(./assets/head.jpg);background-repeat: no-repeat;object-fit: contain;background-position: 0px -70px;background-size:cover;font-family: 'Sacramento', cursive;">
         <div class="container">
-            <h1 style="color:#73574D;">EnterPrise Solutions</h1>
+            <h1 style="color:#0D0D0D; font-size: 75px;">EnterPrise Solutions</h1>
         </div>
     </header>
     <main class="container" style="height:1200px;margin-top: 10px;margin-bottom: 10px;">
         <div class="row">
-            <article class="col col-xl-8 col-sm-12" style="background-color: #73574D;height:1200px;border-radius: 0.5em;">
+            <article class="col col-12 col-xl-8 col-sm-12" style="background-color: #73574D;height:1200px;border-radius: 0.5em;">
                 <section style="height:auto;margin-bottom: 20px;margin-top: 20px;">
                     <div class="card">
-                        <img src="./assets/1.jpg" class="card-img-top" alt="">
-                        <div class="card-body">
-                          <h5 class="card-title">Matéria A</h5>
+                        <img src="./assets/bandw.jpg" class="card-img-top" alt="">
+                        <div class="card-body" style="background-color:#A69677">
+                          <h5 class="card-title" style="font-family: 'Sacramento', cursive; font-size:40px; color:#0D0D0D">Carro A</h5>
                           <p class="card-text">Texto da matéria.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <a href="#" class="btn btn-primary" style="background-color: #D9D7BA; border: 0px; color: #0D0D0D;">Comprar</a>
                         </div>
                     </div>
                 </section>
                 <div class="row">
                     <section class="col col-xl-6 col-sm-12" style="height:auto">
                         <div class="card">
-                            <img src="./assets/2.jpg" style="height:350px" class="card-img-top" alt="">
-                            <div class="card-body">
-                            <h5 class="card-title">Matéria B</h5>
+                            <img src="./assets/22.jpg" style="height:250px" class="card-img-top" alt="">
+                            <div class="card-body" style="background-color:#A69677">
+                            <h5 class="card-title" style="font-family: 'Sacramento', cursive; font-size:40px; color:#0D0D0D">Carro B</h5>
                             <p class="card-text">Texto da matéria.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary" style="background-color: #D9D7BA; border: 0px; color: #0D0D0D;">Comprar</a>
                             </div>
                         </div>
                     </section>
                     <section class="col col-xl-6 col-sm-12" style="height:auto">
                         <div class="card">
-                            <img src="./assets/3.jpg" style="object-fit: cover;height:350px" class="card-img-top" alt="">
-                            <div class="card-body">
-                            <h5 class="card-title">Matéria C</h5>
+                            <img src="./assets/3.jpg" style="object-fit: cover;height:250px" class="card-img-top" alt="">
+                            <div class="card-body" style="background-color:#A69677">
+                            <h5 class="card-title" style="font-family: 'Sacramento', cursive; font-size:40px; color:#0D0D0D">Carro C</h5>
                             <p class="card-text">Texto da matéria.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary" style="background-color: #D9D7BA; border: 0px; color: #0D0D0D;">Comprar</a>
                             </div>
                         </div>
                     </section>
@@ -53,7 +58,7 @@
                     <input type="text" style="width:80%;margin-left:10%;border:3px solid #A69677;border-radius: 0.5em;top: 20px;position: relative;" placeholder="Pesquise um termo...">
                 </div>
                 <div class="col col-12" style="background-color:#A69677;height:250px;position: relative;top:100px;border-radius: 0.3em;"> 
-                    <h3 style="background-color:#73574D;border-radius: 0.1em;">Top 5 carros mais daoras</h3>
+                    <h3 style="background-color:#73574D;border-radius: 0.1em;font-family: 'Sacramento', cursive; font-size:35px; color:#0D0D0D;text-align: center;padding-bottom:5px;padding-top: 5px;">Top 5 carros mais daoras</h3>
                     <ul>
                         <li>Mustang</li>
                         <li>Firebird</li>
@@ -65,18 +70,18 @@
                 </div>
                 <div class="col" style="margin-top: 150px;">
                     <div class="row" style="margin: 5px;">
-                        <section class="col col-5.5" style="height:150px;background-color:#A69677;border-radius: 0.3em;border: 2.5px solid #A69677;margin: 5px;">
+                        <section class="col col-5.5" style="background-image: url(./assets/aside1.jpg);height:150px;background-color:#A69677;border-radius: 0.3em;border: 2.5px solid #A69677;margin: 5px;background-size: cover;background-repeat: no-repeat;">
 
                         </section>
-                        <section class="col col-5.5" style="height:150px;background-color:#A69677;border-radius: 0.3em;border: 2.5px solid #A69677;margin: 5px;">
+                        <section class="col col-5.5" style="background-image: url(./assets/aside2.jpg);height:150px;background-color:#A69677;border-radius: 0.3em;border: 2.5px solid #A69677;margin: 5px;background-size: cover;background-repeat: no-repeat;">
 
                         </section>
                     </div>
                     <div class="row" style="margin: 5px;">
-                        <section class="col col-5.5" style="height:150px;background-color:#A69677;border-radius: 0.3em;border: 2.5px solid #A69677;margin: 5px;">
+                        <section class="col col-5.5" style="background-image: url(./assets/2.jpg);height:150px;background-color:#A69677;border-radius: 0.3em;border: 2.5px solid #A69677;margin: 5px;background-size: cover;background-repeat: no-repeat;">
 
                         </section>
-                        <section class="col col-5.5" style="height:150px;background-color:#A69677;border-radius: 0.3em;border: 2.5px solid #A69677;margin: 5px;">
+                        <section class="col col-5.5" style="background-image: url(./assets/1.jpg);height:150px;background-color:#A69677;border-radius: 0.3em;border: 2.5px solid #A69677;margin: 5px;background-size: cover;background-repeat: no-repeat;">
 
                         </section>
                     </div>
