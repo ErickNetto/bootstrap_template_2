@@ -1,5 +1,6 @@
 @media (min-width:320px) and (max-width:760px){
-    h1{
-        color: white;
-    }
+  footer{
+    position: relative;
+    top: 750px;
+  }
 }
